@@ -1,0 +1,165 @@
+{
+    "thema": "Blackboard",
+    "extensions": {
+        "icon-theme": "material-icon-theme",
+        "bracket": "Bracket Pair Colorizer 2",
+        "custom-text-highlight": {
+            "name": "Highlight",
+            "highlight.regexes": {
+                "({{(.*?)}})": [
+                    {
+                        "color": "#6affc1"
+                    }
+                ],
+                "(<%=(.*?)%>)": [
+                    {
+                        "color": "#d6e0f5"
+                    }
+                ]
+            }
+        }       
+    },
+    "color-settings": [
+        {
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#7bff00"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#00e1ff"
+            }
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#00fc93"
+            }
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#05d9ff"
+            }
+        },
+        {
+            "scope": "entity.name.tag",
+            "settings": {
+                "foreground": "#fffd85"
+            }
+        },
+        {
+            "scope": "meta.object-literal.key",
+            "settings": {
+                "foreground": "#05d9ff"
+            }
+        },
+        {
+            "scope": "variable.other.object.cs",
+            "settings": {
+                "foreground": "#75AE9E"
+            }
+        },
+        {
+            "scope": "keyword.other.this.cs",
+            "settings": {
+                "foreground": "#7bff00"
+            }
+        },
+        {
+            "scope": "entity.name.variable.parameter.cs",
+            "settings": {
+                "foreground": "#f8f8f8ff"
+            }
+        },
+        {
+            "scope": "entity.name.type.interface.cs",
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#00fc93"
+            }
+        },
+        {
+            "scope": "keyword.other.namespace.cs",
+            "settings": {
+                "foreground": "#0cbcd3"
+            }
+        },
+        {
+            "scope": "storage.modifier.cs",
+            "settings": {
+                "foreground": "#5fe7ff"
+            }
+        },
+        {
+            "scope": "entity.name.variable.property.cs",
+            "settings": {
+                "foreground": "#00e1ffff"
+            }
+        },
+        {
+            "scope": "entity.name.variable.field.cs",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "entity.name.function.cs",
+            "settings": {
+                "foreground": "#04E1F1"
+            }
+        },
+        {
+            "scope": "entity.name.type.namespace.cs",
+            "settings": {
+                "foreground": "#c0c0c0"
+            }
+        },
+        {
+            "scope": "entity.name.variable.local.cs",
+            "settings": {
+                "foreground": "#f8f8f8ff"
+            }
+        },
+        {
+            "scope": "keyword.type.cs",
+            "settings": {
+                "foreground": "#8da6ceff"
+            }
+        },
+        {
+            "scope": "punctuation.definition.interpolation.end.cs",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "punctuation.definition.interpolation.begin.cs",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "meta.interpolation.cs",
+            "settings": {
+                "foreground": "#e9f0fc"
+            }
+        },
+        {
+            "scope": "keyword.other.new.cs",
+            "settings": {
+                "foreground": "#8da6ceff"
+            }
+        },
+        {
+            "scope": "storage.type.cs",
+            "settings": {
+                "foreground": "#7ccbff"
+            }
+        }
+    ]
+}
